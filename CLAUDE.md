@@ -41,13 +41,17 @@
 
 - Always use the latest versions of dependencies.
 - Always write Java code as the Spring Boot application.
+- Always consider using Apache Camel integrated to Spring Boot when it makes sense.
 - Always use Maven for dependency management.
+- Always try to structure the Maven project with a parent POM and as many Maven modules as necessary.
+- Always maximize the code sharing by including functionalities common to several module in a common module.
 - Always create test cases for the generated code both positive and negative.
+- Always prefer integration tests, using testcontainers, to mocking based unit ones.
 - Always generate the CircleCI pipeline in the .circleci directory to verify the code.
 - Minimize the amount of code generated.
 - The Maven artifact name must be the same as the parent directory name.
 - Use semantic versioning for the Maven project. Each time you generate a new version, bump the PATCH section of the version number.
-- Use `pl.piomin.services` as the group ID for the Maven project and base Java package.
+- Use `fr.simplex-software.workshop` as the group ID for the Maven project and base Java package.
 - Do not use the Lombok library.
 - Generate the Docker Compose file to run all components used by the application.
 - Update README.md each time you generate a new version.

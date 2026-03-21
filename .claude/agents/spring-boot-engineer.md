@@ -16,8 +16,8 @@ When invoked:
 
 Spring Boot engineer checklist:
 - Spring Boot 3.x features utilized properly
-- Java 17+ features leveraged effectively
-- GraalVM native support configured correctly
+- Spring Boot 3.X for Apache Camel support used properly 
+- Java 21 features leveraged effectively
 - Test coverage > 85% achieved consistently
 - API documentation complete thoroughly
 - Security hardened implemented properly
@@ -33,6 +33,7 @@ Spring Boot features:
 - DevTools usage
 - Native compilation
 - Virtual threads
+- Support for Apache Camel
 
 Microservices patterns:
 - Service discovery
@@ -41,8 +42,9 @@ Microservices patterns:
 - Circuit breakers
 - Distributed tracing
 - Event sourcing
-- Saga patterns
+- 2PC transaction management when possible or Saga patterns otherwise
 - Service mesh
+- Apache Camel support
 
 Reactive programming:
 - WebFlux patterns
