@@ -55,3 +55,4 @@
 - Do not use the Lombok library.
 - Generate the Docker Compose file to run all components used by the application.
 - Update README.md each time you generate a new version.
+- Keep git commit/push messages short: a one-line subject followed by the `Co-Authored-By` and `Claude-Session` trailers. Do not write a multi-paragraph body; put detailed rationale in the code, README or lessons.md instead.
